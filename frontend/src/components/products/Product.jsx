@@ -13,7 +13,7 @@ function Product({product, addToCart}) {
                         {product.description}
                     </h2>
                 </section>
-                <img src={product.imageUrl} alt={"picture of product"}/>
+                <img src={product.imageUrl} alt="s"/>
                 <button onClick={() => addToCart(product.id)}>Add to Cart</button>
             </article>
         </>
