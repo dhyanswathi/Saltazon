@@ -1,0 +1,41 @@
+.cart_item {
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    width: 75vw;
+}
+
+.cart_item img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.text_section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50em;
+}
+
+@media (max-width: 800px) {
+    .text_section{
+        font-size: 2vw;
+    }
+}
+
+.cart_item button {
+    width: 150px;
+    height: 75px;
+    font-size: 14px;
+    margin: auto 10px auto auto;
+}
+
+.cart_item button:hover {
+    border-color: red;
+}
+
+.cart_item button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
