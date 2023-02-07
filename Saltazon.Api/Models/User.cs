@@ -16,8 +16,8 @@ namespace Saltazon.Api.Models
         [JsonPropertyName("role")]
         public string Role { get; set; }
 
-        [JsonPropertyName("uniqueStoreId")]
-        public string UniqueStoreId { get; set; }
+        [JsonPropertyName("storeId")]
+        public int StoreId { get; set; }
 
     }
 }

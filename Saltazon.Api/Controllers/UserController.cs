@@ -8,7 +8,7 @@ namespace Saltazon.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class UserController : ControllerBase
     {
         private static readonly string[] Roles = new[]
         {
@@ -16,24 +16,24 @@ namespace Saltazon.Api.Controllers
         };
 
         private readonly IUserClient _userClient;
-        private readonly ILogger<UsersController> _logger;
+        private readonly ILogger<UserController> _logger;
 
-        public UsersController(ILogger<UsersController> logger, IUserClient userClient)
+        public UserController(ILogger<UserController> logger, IUserClient userClient)
         {
             _logger = logger;
             _userClient = userClient;
         }
 
-        // GET: api/<UsersController>
+        // GET: api/<UserController>
+
         [HttpGet]
-        public async Task<ActionResult<UserListResponse>> GetUserListAsync()
+        public async Task<ActionResult<UserResponse>> GetUserAsync(int id)
         {
             try
             {
-                var userListResponse = await _userClient.getUsers();
+                var user = await _userClient.getUser(id);
 
-                return userListResponse;
-
+                return user;
             }
             catch (System.Exception ex)
             {

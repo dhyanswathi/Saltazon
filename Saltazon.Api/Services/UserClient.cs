@@ -20,14 +20,14 @@ namespace Saltazon.Api.Services
             var usersTask = client.GetStreamAsync(url);
             return await JsonSerializer.DeserializeAsync<UserListResponse>(await usersTask);
         }
-        Task<User> IUserClient.getUser(int id)
+        public async Task<UserResponse> getUser(int id)
         {
-            throw new NotImplementedException();
-        }
-        //public async Task<User> getUser(int id)
-        //{
-        //    var url = $"http://localhost:8000/api/user/{id}";
+            var client = getClient();
+            var url = $"http://localhost:8000/api/user/{id}";
 
-        //}
+            var userTask = client.GetStreamAsync(url);
+
+            return await JsonSerializer.DeserializeAsync<UserResponse>(await userTask);
+        }
     }
 }
