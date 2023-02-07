@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kYO5Wr1b7rOiIGwK4sMT0yHtYd2NdpfwE93EnLCSIkI=",
+  "Source": "Saltazon.Api",
+  "BasePath": "_content/Saltazon.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

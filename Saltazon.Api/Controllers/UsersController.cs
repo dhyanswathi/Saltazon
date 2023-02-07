@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Saltazon.Api.Models;
+using Saltazon.Api.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,36 +10,35 @@ namespace Saltazon.Api.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
+        private static readonly string[] Roles = new[]
+        {
+            "admin", "super-admin", "user"
+        };
+
+        private readonly IUserClient _userClient;
+        private readonly ILogger<UsersController> _logger;
+
+        public UsersController(ILogger<UsersController> logger, IUserClient userClient)
+        {
+            _logger = logger;
+            _userClient = userClient;
+        }
+
         // GET: api/<UsersController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<ActionResult<UserListResponse>> GetUserListAsync()
         {
-            return new string[] { "value1", "value2" };
-        }
+            try
+            {
+                var userListResponse = await _userClient.getUsers();
 
-        // GET api/<UsersController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+                return userListResponse;
 
-        // POST api/<UsersController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/<UsersController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<UsersController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            }
+            catch (System.Exception ex)
+            {
+                return NotFound(ex.ToString());
+            }
         }
     }
 }
