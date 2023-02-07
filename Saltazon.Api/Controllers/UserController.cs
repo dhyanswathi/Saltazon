@@ -25,7 +25,6 @@ namespace Saltazon.Api.Controllers
         }
 
         // GET: api/<UserController>
-
         [HttpGet]
         public async Task<ActionResult<UserResponse>> GetUserAsync(int id)
         {
@@ -40,5 +39,7 @@ namespace Saltazon.Api.Controllers
                 return NotFound(ex.ToString());
             }
         }
+
+
     }
 }
