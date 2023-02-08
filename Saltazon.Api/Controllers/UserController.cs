@@ -47,5 +47,18 @@ namespace Saltazon.Api.Controllers
             return Created("", result?.User.Id);
         }
 
+        [HttpPost("login")]
+        public async Task<ActionResult> Login(string email, string password)
+        {
+            var result = await _userClient.GetUsers();
+            var user = result?.Users.ToList().FirstOrDefault(x=>x.Email == email);
+
+            if (user != null && user.Password == password)
+            {
+                return Ok("token");
+            }
+
+            return Unauthorized("Email or password is incorrect");
+        }
     }
 }
