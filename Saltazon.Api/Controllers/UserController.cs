@@ -30,7 +30,7 @@ namespace Saltazon.Api.Controllers
         {
             try
             {
-                var user = await _userClient.getUser(id);
+                var user = await _userClient.GetUser(id);
 
                 return user;
             }
@@ -40,6 +40,12 @@ namespace Saltazon.Api.Controllers
             }
         }
 
+        [HttpPost("register")]
+        public async Task<ActionResult> PostUserAsync (User user)
+        {
+           var result =  await _userClient.Register(user);
+            return Created("", result?.User.Id);
+        }
 
     }
 }
