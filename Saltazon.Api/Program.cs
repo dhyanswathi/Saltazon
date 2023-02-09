@@ -13,12 +13,12 @@ IConfiguration configuration = new ConfigurationBuilder()
                             .Build();
 
 Log.Logger = new LoggerConfiguration()
-            .MinimumLevel.Information()
-            .WriteTo.Console()
-            .WriteTo.File("log.txt",
-                rollingInterval: RollingInterval.Day,
-                rollOnFileSizeLimit: true)
-            .CreateLogger();
+           .WriteTo.Console()
+           .CreateBootstrapLogger();
+
+Log.Information("Starting up!");
+
+builder.Host.UseSerilog(Log.Logger);
 
 Log.Information("Hello, Serilog!");
 
@@ -84,11 +84,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseSerilogRequestLogging();
+
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
 
 app.UseAuthorization();
+
+app.UseHttpLogging();
 
 app.MapControllers();
 

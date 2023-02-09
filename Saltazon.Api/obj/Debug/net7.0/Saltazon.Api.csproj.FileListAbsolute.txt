@@ -41,3 +41,10 @@ C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\ne
 C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Serilog.dll
 C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
 C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
