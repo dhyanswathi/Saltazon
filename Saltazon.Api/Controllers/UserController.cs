@@ -17,11 +17,12 @@ namespace Saltazon.Api.Controllers
 
         private readonly IUserClient _userClient;
         private readonly ILogger<UserController> _logger;
-
-        public UserController(ILogger<UserController> logger, IUserClient userClient)
+        private readonly ITokenManager _tokenManager;
+        public UserController(ILogger<UserController> logger, IUserClient userClient, ITokenManager tokenManager)
         {
             _logger = logger;
             _userClient = userClient;
+            _tokenManager = tokenManager;
         }
 
         // GET: api/<UserController>
@@ -55,7 +56,12 @@ namespace Saltazon.Api.Controllers
 
             if (user != null && user.Password == userLogin.Password)
             {
-                return Ok("token");
+                var token = _tokenManager.Authenticate(userLogin.Email, userLogin.Password);
+                if (token == null)
+                {
+                    return Unauthorized();
+                }
+                return Ok(token);
             }
 
             return Unauthorized("Email or password is incorrect");
