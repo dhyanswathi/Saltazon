@@ -31,3 +31,10 @@ C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\obj\Debug\ne
 C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\obj\Debug\net7.0\Saltazon.Api.pdb
 C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\obj\Debug\net7.0\Saltazon.Api.genruntimeconfig.cache
 C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\obj\Debug\net7.0\ref\Saltazon.Api.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
