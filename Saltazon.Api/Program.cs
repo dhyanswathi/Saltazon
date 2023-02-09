@@ -50,6 +50,7 @@ builder.Services.AddAuthentication(x =>
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddSwaggerGen(c=> { c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
 {
     Name = "Authorization",
@@ -71,6 +72,9 @@ builder.Services.AddSwaggerGen(c=> { c.AddSecurityDefinition("Bearer", new OpenA
         }
     });
 });
+
+builder.Services.AddCors();
+
 builder.Services.AddSingleton<ITokenManager>(new TokenManager(tokenKey));
 builder.Services.AddScoped<IUserClient, UserClient>();
 
@@ -84,6 +88,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseSerilogRequestLogging();
+
+app.UseCors(x => x
+    .AllowAnyHeader()
+    .AllowAnyMethod()
+    .AllowAnyOrigin());
 
 app.UseHttpsRedirection();
 
