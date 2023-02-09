@@ -45,7 +45,7 @@ namespace Saltazon.Api.Controllers
         public async Task<ActionResult> PostUserAsync (UserRegisterRequest user)
         {
            var result =  await _userClient.Register(user);
-            return Created("", result?.User.Id);
+            return Created("", user.Email);
         }
 
         [HttpPost("login")]
