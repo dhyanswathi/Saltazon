@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Saltazon.Api.Services;
@@ -16,11 +15,11 @@ Log.Logger = new LoggerConfiguration()
            .WriteTo.Console()
            .CreateBootstrapLogger();
 
-Log.Information("Starting up!");
-
-builder.Host.UseSerilog(Log.Logger);
-
-Log.Information("Hello, Serilog!");
+builder.Host.UseSerilog((context, services, configuration) => configuration
+                .ReadFrom.Configuration(context.Configuration)
+                .ReadFrom.Services(services)
+                .Enrich.FromLogContext()
+                .WriteTo.Console());
 
 Log.CloseAndFlush();
 
