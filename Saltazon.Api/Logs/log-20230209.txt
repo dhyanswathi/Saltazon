@@ -28,3 +28,207 @@ Content-Type: application/json; charset=utf-8
 Date: Thu, 09 Feb 2023 17:07:38 GMT
 Server: Kestrel
 2023-02-09 18:07:38.767 +01:00 [INF] HTTP GET /api/User responded 200 in 350.3577 ms
+2023-02-09 19:15:51.170 +01:00 [INF] Now listening on: https://localhost:7148
+2023-02-09 19:15:51.260 +01:00 [INF] Now listening on: http://localhost:5295
+2023-02-09 19:15:51.264 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-09 19:15:51.266 +01:00 [INF] Hosting environment: Development
+2023-02-09 19:15:51.268 +01:00 [INF] Content root path: C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api
+2023-02-09 19:16:38.798 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/User/login
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Content-Type: application/json
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 47
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-09 19:16:39.097 +01:00 [INF] Response:
+StatusCode: 401
+Content-Type: text/plain; charset=utf-8
+Date: Thu, 09 Feb 2023 18:16:38 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-09 19:16:39.102 +01:00 [INF] HTTP POST /api/User/login responded 401 in 449.4513 ms
+2023-02-09 19:34:37.774 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/User
+Accept: text/plain
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-09 19:34:37.879 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Thu, 09 Feb 2023 18:34:37 GMT
+Server: Kestrel
+2023-02-09 19:34:37.880 +01:00 [INF] HTTP GET /api/User responded 200 in 115.0600 ms
+2023-02-09 19:35:16.296 +01:00 [INF] HTTP OPTIONS /api/User/login responded 204 in 2.0769 ms
+2023-02-09 19:35:16.307 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/User/login
+Accept: application/json, text/plain, */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 62
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-09 19:35:16.550 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+Date: Thu, 09 Feb 2023 18:35:16 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-09 19:35:16.552 +01:00 [INF] HTTP POST /api/User/login responded 200 in 249.7699 ms
+2023-02-09 19:35:39.371 +01:00 [INF] HTTP OPTIONS /api/User/login responded 204 in 1.9186 ms
+2023-02-09 19:35:39.384 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/User/login
+Accept: application/json, text/plain, */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 62
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-09 19:35:39.413 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+Date: Thu, 09 Feb 2023 18:35:38 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-09 19:35:39.415 +01:00 [INF] HTTP POST /api/User/login responded 200 in 30.5359 ms
+2023-02-09 19:36:42.415 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/User/login
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Content-Type: application/json
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 71
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-09 19:36:42.438 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+Date: Thu, 09 Feb 2023 18:36:42 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-09 19:36:42.440 +01:00 [INF] HTTP POST /api/User/login responded 200 in 27.6323 ms
+2023-02-09 19:37:06.429 +01:00 [INF] HTTP OPTIONS /api/User/login responded 204 in 0.3857 ms
+2023-02-09 19:37:06.437 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/User/login
+Accept: application/json, text/plain, */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 62
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-09 19:37:06.455 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+Date: Thu, 09 Feb 2023 18:37:05 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-09 19:37:06.458 +01:00 [INF] HTTP POST /api/User/login responded 200 in 21.1604 ms
+2023-02-09 19:40:13.221 +01:00 [INF] HTTP OPTIONS /api/User/login responded 204 in 0.1043 ms
+2023-02-09 19:40:13.237 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/User/login
+Accept: application/json, text/plain, */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-09 19:40:13.260 +01:00 [INF] Response:
+StatusCode: 401
+Content-Type: text/plain; charset=utf-8
+Date: Thu, 09 Feb 2023 18:40:13 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-09 19:40:13.262 +01:00 [INF] HTTP POST /api/User/login responded 401 in 25.9838 ms
