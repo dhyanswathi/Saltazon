@@ -48,12 +48,12 @@ namespace Saltazon.Api.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult> Login(string email, string password)
+        public async Task<ActionResult> Login(UserLoginRequest userLogin)
         {
             var result = await _userClient.GetUsers();
-            var user = result?.Users.ToList().FirstOrDefault(x=>x.Email == email);
+            var user = result?.Users.ToList().FirstOrDefault(x=>x.Email == userLogin.Email);
 
-            if (user != null && user.Password == password)
+            if (user != null && user.Password == userLogin.Password)
             {
                 return Ok("token");
             }
