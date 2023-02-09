@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ooqxvijKDHrVp5Ebnb409RvarUdl2P+4bO9EQBpAoTKl3uRxBEiBSeia7l+SvOuSpJpfXfMq3RMSismZ4Y2now==",
+  "dgSpecHash": "Ci7K1xpP60LmqEbXP8UnwhbhBVmLG0/XF7TMp/pEycCGqpA/F85JwFmczevhZFwyyXx62JUTPGgloh9xGoK+tg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mintu\\swathistudy\\pgp\\authentication\\Saltazon\\Saltazon.Api\\Saltazon.Api.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,9 @@
     "C:\\Users\\Mintu\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.15.1\\microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
     "C:\\Users\\Mintu\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.15.1\\microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
     "C:\\Users\\Mintu\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Mintu\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
+    "C:\\Users\\Mintu\\.nuget\\packages\\serilog.sinks.console\\4.1.0\\serilog.sinks.console.4.1.0.nupkg.sha512",
+    "C:\\Users\\Mintu\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\Mintu\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Mintu\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Mintu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

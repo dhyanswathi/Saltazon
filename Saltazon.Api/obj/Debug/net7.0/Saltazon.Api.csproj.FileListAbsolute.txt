@@ -38,3 +38,6 @@ C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\ne
 C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Serilog.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
