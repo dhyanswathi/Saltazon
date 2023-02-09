@@ -12,18 +12,18 @@ namespace Saltazon.Api.Services
     }
     public class TokenManager : ITokenManager
     {
-        private readonly string tokenKey;
+        private readonly string _tokenKey;
 
         public TokenManager(string tokenKey)
         {
-            this.tokenKey = tokenKey;
+            _tokenKey = tokenKey;
         }
 
         public string Authenticate(string email, string password)
         {
 
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(tokenKey);
+            var key = Encoding.ASCII.GetBytes(_tokenKey);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]
