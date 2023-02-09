@@ -42,7 +42,7 @@ namespace Saltazon.Api.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<ActionResult> PostUserAsync (User user)
+        public async Task<ActionResult> PostUserAsync (UserRegisterRequest user)
         {
            var result =  await _userClient.Register(user);
             return Created("", result?.User.Id);

@@ -1,6 +1,7 @@
 ﻿using Saltazon.Api.Models;
 using System.Net.Http.Headers;
 using System.Text.Json;
+using Saltazon.Api.Models;
 
 namespace Saltazon.Api.Services
 {
@@ -31,9 +32,18 @@ namespace Saltazon.Api.Services
             return await JsonSerializer.DeserializeAsync<UserResponse?>(await userTask);
         }
 
-        public async Task<UserResponse?> Register(User user)
+        public async Task<UserResponse?> Register(UserRegisterRequest userRegister)
         {
             var url = "http://localhost:8000/api/user/";
+
+            var user = new User
+            {
+                Id = GetUsers().Result.Users.Count() + 1,
+                Email = userRegister.Email,
+                Password = userRegister.Password,
+                Role = userRegister.Role,
+                StoreId = userRegister.StoreId,
+            };
 
             var response = await client.PostAsJsonAsync(url, user);
             var result = await response.Content.ReadFromJsonAsync<UserResponse?>();

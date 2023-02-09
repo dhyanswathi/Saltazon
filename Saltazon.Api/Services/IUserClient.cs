@@ -6,7 +6,7 @@ namespace Saltazon.Api.Services
     {
         Task<UserListResponse?> GetUsers();
         Task<UserResponse?> GetUser(int id);
-        Task<UserResponse?> Register(User user);
+        Task<UserResponse?> Register(UserRegisterRequest userRegister);
 
     }
 }
