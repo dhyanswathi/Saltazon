@@ -1,7 +1,6 @@
 ﻿using Saltazon.Api.Models;
 using System.Net.Http.Headers;
 using System.Text.Json;
-using Saltazon.Api.Models;
 
 namespace Saltazon.Api.Services
 {
