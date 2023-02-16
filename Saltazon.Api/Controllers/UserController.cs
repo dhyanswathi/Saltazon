@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Saltazon.Api.Models;
 using Saltazon.Api.Services;
 
