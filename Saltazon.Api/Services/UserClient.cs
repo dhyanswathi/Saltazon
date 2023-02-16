@@ -33,8 +33,6 @@ namespace Saltazon.Api.Services
 
         public async Task<UserResponse?> Register(UserRegisterRequest userRegister)
         {
-            var url = "http://localhost:8000/api/user/";
-
             var user = new User
             {
                 Id = GetUsers().Result.Users.Count() + 1,
@@ -44,7 +42,7 @@ namespace Saltazon.Api.Services
                 StoreId = userRegister.StoreId,
             };
 
-            var response = await client.PostAsJsonAsync(url, user);
+            var response = await client.PostAsJsonAsync(UserUrl, user);
             var result = await response.Content.ReadFromJsonAsync<UserResponse?>();
 
             return result;
