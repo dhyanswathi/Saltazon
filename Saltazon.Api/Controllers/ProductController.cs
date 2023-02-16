@@ -18,13 +18,13 @@ namespace Saltazon.Api.Controllers
 
         [HttpGet]
 
-        public async Task<ActionResult<ProductListResponse>> GetProductsAsync()
+        public async Task<ActionResult> GetProductsAsync()
         {
             try
             {
                 var products = await _storeClient.GetAllProducts();
 
-                return products;
+                return Ok(products);
             }
             catch (Exception ex)
             {
@@ -33,13 +33,13 @@ namespace Saltazon.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<ProductResponse>> GetProductAsync(int id)
+        public async Task<ActionResult> GetProductAsync(int id)
         {
             try
             {
                 var product = await _storeClient.GetProduct(id);
 
-                return product;
+                return Ok(product);
             }
             catch (Exception ex)
             {

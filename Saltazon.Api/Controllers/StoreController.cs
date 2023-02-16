@@ -14,18 +14,36 @@ namespace Saltazon.Api.Controllers
         public StoreController(IStoreClient storeClient) { _storeClient = storeClient; }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<StoreResponse>> GetStoreAsync(int id)
+        public async Task<ActionResult> GetStoreAsync(int id)
         {
             try
             {
                 var store = await _storeClient.GetStore(id);
 
-                return store;
+                return Ok(store);
             }
             catch (Exception ex)
             {
                 return NotFound(ex.ToString());
             }
         }
+
+        [HttpGet("{id}/product")]
+        public async Task<ActionResult> GetProductsInStore(int id)
+        {
+            try
+            {
+                var products = await _storeClient.GetAllProducts();
+
+                var result = products?.Products.Where(p => p.StoreId == id);
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.ToString());
+            }
+        }
+
     }
 }

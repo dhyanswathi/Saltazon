@@ -28,13 +28,13 @@ namespace Saltazon.Api.Controllers
 
         // GET: api/<UserController>
         [HttpGet]
-        public async Task<ActionResult<UserResponse>> GetUserAsync(int id)
+        public async Task<ActionResult> GetUserAsync(int id)
         {
             try
             {
                 var user = await _userClient.GetUser(id);
 
-                return user;
+                return Ok(user);
             }
             catch (Exception ex)
             {
