@@ -9,6 +9,7 @@ namespace Saltazon.Api.Services
         static HttpClient client = new HttpClient();
 
         const string StoreUrl = "http://localhost:8000/api/store/";
+        const string ProductUrl = "http://localhost:8000/api/product/";
 
         private HttpClient getClient()
         {
@@ -24,6 +25,23 @@ namespace Saltazon.Api.Services
             var storeTask = client.GetStreamAsync(url);
 
             return await JsonSerializer.DeserializeAsync<StoreResponse?>(await storeTask);
+        }
+
+        public async Task<ProductListResponse?> GetAllProducts()
+        {
+            var client = getClient();
+            var productsTask = client.GetStreamAsync(ProductUrl);
+            return await JsonSerializer.DeserializeAsync<ProductListResponse?>(await productsTask);
+        }
+
+        public async Task<ProductResponse?> GetProduct(int id)
+        {
+            var client = getClient();
+            var url = $"{ProductUrl}{id}";
+
+            var productTask = client.GetStreamAsync(url);
+
+            return await JsonSerializer.DeserializeAsync<ProductResponse?>(await productTask);
         }
     }
 }
