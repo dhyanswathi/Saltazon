@@ -660,3 +660,32 @@ Content-Type: application/json; charset=utf-8
 Date: Thu, 16 Feb 2023 16:36:40 GMT
 Server: Kestrel
 2023-02-16 17:36:40.529 +01:00 [INF] HTTP GET /api/Store/1 responded 200 in 5971.1447 ms
+2023-02-16 19:58:30.885 +01:00 [INF] Now listening on: https://localhost:7148
+2023-02-16 19:58:30.947 +01:00 [INF] Now listening on: http://localhost:5295
+2023-02-16 19:58:30.951 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-16 19:58:30.953 +01:00 [INF] Hosting environment: Development
+2023-02-16 19:58:30.954 +01:00 [INF] Content root path: C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api
+2023-02-16 19:58:38.812 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: text/plain
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-16 19:58:39.057 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Thu, 16 Feb 2023 18:58:38 GMT
+Server: Kestrel
+2023-02-16 19:58:39.065 +01:00 [INF] HTTP GET /api/Product responded 200 in 395.0043 ms

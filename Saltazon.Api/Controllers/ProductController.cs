@@ -31,5 +31,20 @@ namespace Saltazon.Api.Controllers
                 return NotFound(ex.ToString());
             }
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ProductResponse>> GetProductAsync(int id)
+        {
+            try
+            {
+                var product = await _storeClient.GetProduct(id);
+
+                return product;
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.ToString());
+            }
+        }
     }
 }
