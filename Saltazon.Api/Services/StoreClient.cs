@@ -8,7 +8,7 @@ namespace Saltazon.Api.Services
     {
         static HttpClient client = new HttpClient();
 
-        const string StoreUrl = "http://localhost:8000/api/user/";
+        const string StoreUrl = "http://localhost:8000/api/store/";
 
         private HttpClient getClient()
         {

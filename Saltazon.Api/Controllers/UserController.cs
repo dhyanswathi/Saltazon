@@ -35,7 +35,7 @@ namespace Saltazon.Api.Controllers
 
                 return user;
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
                 return NotFound(ex.ToString());
             }

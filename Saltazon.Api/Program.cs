@@ -77,6 +77,7 @@ builder.Services.AddCors();
 
 builder.Services.AddSingleton<ITokenManager>(new TokenManager(tokenKey));
 builder.Services.AddScoped<IUserClient, UserClient>();
+builder.Services.AddTransient<IStoreClient, StoreClient>();
 
 var app = builder.Build();
 

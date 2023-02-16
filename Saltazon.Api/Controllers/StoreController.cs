@@ -9,9 +9,9 @@ namespace Saltazon.Api.Controllers
     [ApiController]
     public class StoreController : ControllerBase
     {
-        private readonly StoreClient _storeClient;
+        private readonly IStoreClient _storeClient;
 
-        public StoreController(StoreClient storeClient) { _storeClient= storeClient; }
+        public StoreController(IStoreClient storeClient) { _storeClient = storeClient; }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<StoreResponse>> GetStoreAsync(int id)
@@ -22,7 +22,7 @@ namespace Saltazon.Api.Controllers
 
                 return store;
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
                 return NotFound(ex.ToString());
             }
