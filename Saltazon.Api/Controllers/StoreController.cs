@@ -45,5 +45,11 @@ namespace Saltazon.Api.Controllers
             }
         }
 
+        [HttpPost("{id}/product")]
+        public async Task<ActionResult> PostProductAsync(ProductRegisterRequest product)
+        {
+            var result = await _storeClient.Register(product);
+            return Created("", product);
+        }
     }
 }

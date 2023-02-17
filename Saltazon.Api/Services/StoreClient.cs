@@ -43,5 +43,25 @@ namespace Saltazon.Api.Services
 
             return await JsonSerializer.DeserializeAsync<ProductResponse?>(await productTask);
         }
+
+        public async Task<ProductResponse?> Register(ProductRegisterRequest productRegister)
+        {
+            var product = new Product
+            {
+                Id = GetAllProducts().Result.Products.OrderByDescending(x => x.Id).First().Id + 1,
+                Title= productRegister.Title,
+                Description= productRegister.Description,
+                ImageUrl= productRegister.ImageUrl,
+                Price= productRegister.Price,
+                Category= productRegister.Category,
+                Quantity= productRegister.Quantity,
+                StoreId = productRegister.StoreId,
+            };
+
+            var response = await client.PostAsJsonAsync(ProductUrl, product);
+            var result = await response.Content.ReadFromJsonAsync<ProductResponse?>();
+
+            return result;
+        }
     }
 }
