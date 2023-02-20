@@ -46,5 +46,12 @@ namespace Saltazon.Api.Controllers
                 return NotFound(ex.ToString());
             }
         }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteProductAsync(int id)
+        {
+            await _storeClient.DeleteProduct(id);
+            return NoContent();
+        }
     }
 }

@@ -63,5 +63,18 @@ namespace Saltazon.Api.Services
 
             return result;
         }
+
+        //public async Task<ProductResponse?> UpdateProduct(ProductRegisterRequest productUpdate, int storeId, int id)
+        //{
+        //    var product = await GetProduct(id);
+
+        //}
+
+        public async Task DeleteProduct(int id)
+        {
+            var url = $"{ProductUrl}{id}";
+
+            var response = await client.DeleteAsync(url);
+        }
     }
 }
