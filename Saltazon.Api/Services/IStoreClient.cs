@@ -8,6 +8,6 @@ namespace Saltazon.Api.Services
         Task<ProductListResponse?> GetAllProducts();
 
         Task<ProductResponse?> GetProduct(int id);
-        Task<ProductResponse?> Register(ProductRegisterRequest productRegister);
+        Task<ProductResponse?> Register(ProductRegisterRequest productRegister, int storeId);
     }
 }

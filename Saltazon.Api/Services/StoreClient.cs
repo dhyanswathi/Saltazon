@@ -44,7 +44,7 @@ namespace Saltazon.Api.Services
             return await JsonSerializer.DeserializeAsync<ProductResponse?>(await productTask);
         }
 
-        public async Task<ProductResponse?> Register(ProductRegisterRequest productRegister)
+        public async Task<ProductResponse?> Register(ProductRegisterRequest productRegister, int storeId)
         {
             var product = new Product
             {
@@ -55,7 +55,7 @@ namespace Saltazon.Api.Services
                 Price= productRegister.Price,
                 Category= productRegister.Category,
                 Quantity= productRegister.Quantity,
-                StoreId = productRegister.StoreId,
+                StoreId = storeId,
             };
 
             var response = await client.PostAsJsonAsync(ProductUrl, product);
