@@ -12,16 +12,11 @@ const Fakeproducts = () => {
     getData();
 }, []);
 
+console.log(products[0]);
+
 return (
   <section className="homePage">
-      <ul className="product-list">
-          {
-              products.map(product => 
-                  <li className="listed-products">
-                    <h6>{product.title}</h6>
-                      </li>)
-          }
-      </ul>
+      {products}
   </section>
 )
 }

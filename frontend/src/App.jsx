@@ -1,12 +1,10 @@
 import './App.css';
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import {
     BrowserRouter as Router,
     Routes,
     Route,
 } from 'react-router-dom';
-
-import FakeProducts from './fakedata/fakedata.js';
 import {fakecart} from './fakedata/fakecart.js';
 import NavBar from './components/Navbar.jsx';
 import Cart from './components/checkout/Cart.jsx';
@@ -35,6 +33,16 @@ function getCurrentCart() {
 
 function App() {
     const [currentCart, setCurrentCart] = useState(getCurrentCart());
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
+      const getData = async () => {
+          const response = await fetch("http://localhost:5295/api/Product");
+          const productResults = await response.json();
+          setProducts(productResults.data);
+      }
+      getData();
+  }, []);
     return (
         <div className="App">
             <Router>
@@ -46,7 +54,7 @@ function App() {
                     <Route exact path='/create-new-user' element={< NewUserForm/>}></Route>
                     <Route exact path='/login' element={< LoginForm/>}></Route>
                     <Route exact path='/'
-                           element={< ProductList products={FakeProducts} addToCart={addToCart}/>}></Route>
+                           element={< ProductList products={products} addToCart={addToCart}/>}></Route>
                     <Route exact path='/cart'
                            element={< Cart products={currentCart} removeFromCart={removeFromCart}/>}></Route>
                     <Route exact path='/admin' element={< AdminPage/>}></Route>
