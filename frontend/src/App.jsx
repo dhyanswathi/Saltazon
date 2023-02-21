@@ -6,7 +6,7 @@ import {
     Route,
 } from 'react-router-dom';
 
-import {fakeProducts} from './fakedata/fakedata.js';
+import FakeProducts from './fakedata/fakedata.js';
 import {fakecart} from './fakedata/fakecart.js';
 import NavBar from './components/Navbar.jsx';
 import Cart from './components/checkout/Cart.jsx';
@@ -46,7 +46,7 @@ function App() {
                     <Route exact path='/create-new-user' element={< NewUserForm/>}></Route>
                     <Route exact path='/login' element={< LoginForm/>}></Route>
                     <Route exact path='/'
-                           element={< ProductList products={fakeProducts} addToCart={addToCart}/>}></Route>
+                           element={< ProductList products={FakeProducts} addToCart={addToCart}/>}></Route>
                     <Route exact path='/cart'
                            element={< Cart products={currentCart} removeFromCart={removeFromCart}/>}></Route>
                     <Route exact path='/admin' element={< AdminPage/>}></Route>
