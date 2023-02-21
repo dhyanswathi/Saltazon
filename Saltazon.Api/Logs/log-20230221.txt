@@ -147,3 +147,59 @@ Sec-Fetch-Dest: [Redacted]
 2023-02-21 19:07:28.513 +01:00 [INF] Response:
 StatusCode: 404
 2023-02-21 19:07:28.515 +01:00 [INF] HTTP GET /favicon.ico responded 404 in 8.7557 ms
+2023-02-21 19:43:48.806 +01:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/Product
+Accept: */*
+Connection: keep-alive
+Host: localhost:5295
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-02-21 19:43:48.850 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Tue, 21 Feb 2023 18:43:48 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+Transfer-Encoding: chunked
+2023-02-21 19:43:48.853 +01:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/Product
+Accept: */*
+Connection: keep-alive
+Host: localhost:5295
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-02-21 19:43:48.855 +01:00 [INF] HTTP GET /api/Product responded 200 in 51.0443 ms
+2023-02-21 19:43:48.873 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Tue, 21 Feb 2023 18:43:48 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+Transfer-Encoding: chunked
+2023-02-21 19:43:48.878 +01:00 [INF] HTTP GET /api/Product responded 200 in 25.8000 ms
