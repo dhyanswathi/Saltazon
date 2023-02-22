@@ -28,6 +28,21 @@ namespace Saltazon.Api.Controllers
             }
         }
 
+        [HttpGet]
+        public async Task<ActionResult> GetStoresAsync()
+        {
+            try
+            {
+                var result = await _storeClient.GetAllStores();
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.ToString());
+            }
+        }
+
         [HttpGet("{id}/product")]
         public async Task<ActionResult> GetProductsInStore(int id)
         {
