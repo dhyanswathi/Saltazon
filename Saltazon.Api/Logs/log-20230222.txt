@@ -1,0 +1,148 @@
+2023-02-22 09:27:45.610 +01:00 [INF] Now listening on: http://localhost:5295
+2023-02-22 09:27:45.678 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-22 09:27:45.682 +01:00 [INF] Hosting environment: Development
+2023-02-22 09:27:45.687 +01:00 [INF] Content root path: C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api
+2023-02-22 09:28:24.485 +01:00 [WRN] Failed to determine the https port for redirect.
+2023-02-22 09:28:24.649 +01:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/User
+Accept: */*
+Connection: keep-alive
+Host: localhost:5295
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-02-22 09:28:25.080 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 08:28:24 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2023-02-22 09:28:25.101 +01:00 [INF] HTTP GET /api/User responded 200 in 622.5226 ms
+2023-02-22 09:35:26.960 +01:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/Product
+Accept: */*
+Connection: keep-alive
+Host: localhost:5295
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-02-22 09:35:27.061 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 08:35:26 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+Transfer-Encoding: chunked
+2023-02-22 09:35:27.065 +01:00 [INF] HTTP GET /api/Product responded 200 in 124.6208 ms
+2023-02-22 09:35:27.072 +01:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/Product
+Accept: */*
+Connection: keep-alive
+Host: localhost:5295
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-02-22 09:35:27.096 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 08:35:26 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+Transfer-Encoding: chunked
+2023-02-22 09:35:27.100 +01:00 [INF] HTTP GET /api/Product responded 200 in 35.0221 ms
+2023-02-22 09:38:11.583 +01:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/User/login
+Accept: */*
+Connection: keep-alive
+Host: localhost:5295
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 70
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-02-22 09:38:11.961 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 22 Feb 2023 08:38:11 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+Transfer-Encoding: chunked
+2023-02-22 09:38:11.967 +01:00 [INF] HTTP POST /api/User/login responded 200 in 384.2680 ms
+2023-02-22 09:38:15.076 +01:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/User/login
+Accept: */*
+Connection: keep-alive
+Host: localhost:5295
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 70
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-02-22 09:38:15.099 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 22 Feb 2023 08:38:14 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+Transfer-Encoding: chunked
+2023-02-22 09:38:15.104 +01:00 [INF] HTTP POST /api/User/login responded 200 in 28.9750 ms
+2023-02-22 09:40:19.488 +01:00 [INF] Application is shutting down...
