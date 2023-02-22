@@ -1,8 +1,10 @@
 import {Link} from 'react-router-dom';
+import './Navbar.css';
+
 function NavBar() {
   return (
       <nav className={"navbar"}>
-        <ul>
+        <ul className='navlist'>
           <li>
             <Link to={'/'} className={"nav_button"}>SHOW ME ALL THE ITEMS</Link>
           </li>

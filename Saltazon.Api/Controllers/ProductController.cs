@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Saltazon.Api.Models;
 using Saltazon.Api.Services;
@@ -47,6 +48,7 @@ namespace Saltazon.Api.Controllers
             }
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteProductAsync(int id)
         {

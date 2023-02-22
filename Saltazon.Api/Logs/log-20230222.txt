@@ -3,3 +3,813 @@
 2023-02-22 13:57:09.386 +01:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-02-22 13:57:09.389 +01:00 [INF] Hosting environment: Development
 2023-02-22 13:57:09.392 +01:00 [INF] Content root path: C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api
+2023-02-22 13:57:36.641 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/User
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 13:57:36.875 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 12:57:36 GMT
+Server: Kestrel
+2023-02-22 13:57:36.880 +01:00 [INF] HTTP GET /api/User responded 200 in 374.0572 ms
+2023-02-22 13:58:13.775 +01:00 [INF] HTTP OPTIONS /api/User/login responded 204 in 10.3168 ms
+2023-02-22 13:58:13.787 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/User/login
+Accept: application/json, text/plain, */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 50
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 13:58:14.051 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 12:58:13 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 13:58:14.053 +01:00 [INF] HTTP POST /api/User/login responded 200 in 269.7743 ms
+2023-02-22 14:06:35.463 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 14:06:35.526 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 13:06:34 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 14:06:35.528 +01:00 [INF] HTTP GET /api/Product responded 200 in 75.4135 ms
+2023-02-22 14:07:18.500 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 14:07:18.537 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 13:07:18 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 14:07:18.539 +01:00 [INF] HTTP GET /api/Product responded 200 in 40.3675 ms
+2023-02-22 14:07:31.120 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 14:07:31.149 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 13:07:30 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 14:07:31.149 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 14:07:31.150 +01:00 [INF] HTTP GET /api/Product responded 200 in 30.6741 ms
+2023-02-22 14:07:31.166 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 13:07:30 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 14:07:31.168 +01:00 [INF] HTTP GET /api/Product responded 200 in 19.2338 ms
+2023-02-22 14:08:11.118 +01:00 [INF] HTTP OPTIONS /api/User/login responded 204 in 1.1906 ms
+2023-02-22 14:08:11.131 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/User/login
+Accept: application/json, text/plain, */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 50
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 14:08:11.147 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 13:08:10 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 14:08:11.150 +01:00 [INF] HTTP POST /api/User/login responded 200 in 18.7460 ms
+2023-02-22 18:54:02.701 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:54:02.783 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:54:02.786 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:54:02 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:54:02.808 +01:00 [INF] HTTP GET /api/Product responded 200 in 144.8656 ms
+2023-02-22 18:54:02.828 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:54:02 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:54:02.831 +01:00 [INF] HTTP GET /api/Product responded 200 in 47.9401 ms
+2023-02-22 18:54:31.873 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:54:31.943 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:54:30 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:54:31.944 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:54:31.947 +01:00 [INF] HTTP GET /api/Product responded 200 in 84.6343 ms
+2023-02-22 18:54:31.980 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:54:31 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:54:31.984 +01:00 [INF] HTTP GET /api/Product responded 200 in 40.0926 ms
+2023-02-22 18:55:34.614 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:55:34.686 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:55:34.690 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:55:34 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:55:34.718 +01:00 [INF] HTTP GET /api/Product responded 200 in 105.7504 ms
+2023-02-22 18:55:34.741 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:55:34 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:55:34.746 +01:00 [INF] HTTP GET /api/Product responded 200 in 60.8643 ms
+2023-02-22 18:56:19.459 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:56:19.558 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:56:19.558 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:56:18 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:56:19.574 +01:00 [INF] HTTP GET /api/Product responded 200 in 115.4399 ms
+2023-02-22 18:56:19.591 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:56:18 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:56:19.594 +01:00 [INF] HTTP GET /api/Product responded 200 in 36.8194 ms
+2023-02-22 18:57:00.269 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:57:00.332 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:57:00.360 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:56:59 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:57:00.364 +01:00 [INF] HTTP GET /api/Product responded 200 in 101.8223 ms
+2023-02-22 18:57:00.375 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:57:00 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:57:00.384 +01:00 [INF] HTTP GET /api/Product responded 200 in 51.8348 ms
+2023-02-22 18:57:12.229 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:57:12.270 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:57:11 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:57:12.270 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:57:12.274 +01:00 [INF] HTTP GET /api/Product responded 200 in 46.1844 ms
+2023-02-22 18:57:12.308 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:57:11 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:57:12.321 +01:00 [INF] HTTP GET /api/Product responded 200 in 51.6757 ms
+2023-02-22 18:59:23.982 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:59:24.056 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:59:24.116 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:59:23 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:59:24.138 +01:00 [INF] HTTP GET /api/Product responded 200 in 158.8426 ms
+2023-02-22 18:59:24.148 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:59:23 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:59:24.155 +01:00 [INF] HTTP GET /api/Product responded 200 in 101.0397 ms
+2023-02-22 18:59:42.255 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:59:42.479 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 18:59:42.481 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:59:42 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:59:42.504 +01:00 [INF] HTTP GET /api/Product responded 200 in 249.5878 ms
+2023-02-22 18:59:42.514 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 17:59:42 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 18:59:42.523 +01:00 [INF] HTTP GET /api/Product responded 200 in 44.1001 ms
+2023-02-22 19:00:11.855 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:00:11.930 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:00:11.930 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:00:11 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:00:11.953 +01:00 [INF] HTTP GET /api/Product responded 200 in 99.2595 ms
+2023-02-22 19:00:11.992 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:00:11 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:00:12.025 +01:00 [INF] HTTP GET /api/Product responded 200 in 97.5294 ms
+2023-02-22 19:00:53.817 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:00:53.891 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:00:53.905 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:00:53 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:00:53.924 +01:00 [INF] HTTP GET /api/Product responded 200 in 107.9111 ms
+2023-02-22 19:00:53.944 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:00:53 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:00:53.947 +01:00 [INF] HTTP GET /api/Product responded 200 in 66.3292 ms
+2023-02-22 19:01:35.858 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:01:35.903 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:01:35.930 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:01:35 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:01:35.969 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:01:35 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:01:35.977 +01:00 [INF] HTTP GET /api/Product responded 200 in 119.5654 ms
+2023-02-22 19:01:36.173 +01:00 [INF] HTTP GET /api/Product responded 200 in 272.1889 ms
+2023-02-22 19:02:04.476 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:02:04.529 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:02:03 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:02:04.531 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:02:04.548 +01:00 [INF] HTTP GET /api/Product responded 200 in 72.0713 ms
+2023-02-22 19:02:04.597 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:02:04 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:02:04.610 +01:00 [INF] HTTP GET /api/Product responded 200 in 79.9419 ms

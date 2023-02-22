@@ -19,8 +19,12 @@ function LoginForm({onSubmit}) {
       if(response.status === 200){
         localStorage.setItem("token", JSON.stringify(response.data));
         setAuthToken(response.data.token);
-        console.log(response.data.token);
-        navigate('/');
+        if (response.data.role === "admin") {
+          navigate('/admin')
+        }
+        else {
+          navigate('/');
+        }
       }
       else 
       {

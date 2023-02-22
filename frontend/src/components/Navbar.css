@@ -1,0 +1,20 @@
+.navbar {
+  margin: auto;
+  width: 100%;
+}
+
+.nav_button {
+    color: #FFF;
+}
+
+.nav_button:hover {
+    color: bisque
+}
+
+.navlist {
+    list-style: none;
+    display: flex ;
+    justify-content: space-around;
+    background-color: black;
+    padding: 1rem;
+  }
