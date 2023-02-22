@@ -1,9 +1,20 @@
 import StoreOverview from "./StoreOverview.jsx";
-import {allStores} from "../fakedata/fakeStores.js";
 import AddStoreForm from "./AddStoreForm.jsx";
+import React, {useState, useEffect} from "react";
 
 function SuperAdminPage() {
     const currentUser = "Best Admin of all";
+
+    const [stores, setStores] = useState([]);
+
+    useEffect(() => {
+      const getData = async () => {
+          const response = await fetch(`http://localhost:7148/api/Store/`);
+          const storeResults = await response.json();
+          setStores(storeResults.data);
+      }
+      getData();
+  });
     return (
         <>
             <header>
@@ -11,7 +22,7 @@ function SuperAdminPage() {
             </header>
             <AddStoreForm/>
             {
-                allStores.map(s => {
+                stores.map(s => {
                     return <StoreOverview storeInfo={s}/>
                 })
             }

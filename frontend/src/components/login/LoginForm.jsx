@@ -16,7 +16,8 @@ function LoginForm({onSubmit}) {
           password: password
     }).then(response => {
       if(response.status === 200){
-        localStorage.setItem("token", response.data.token);
+        localStorage.setItem("token", JSON.stringify(response.data));
+        console.log(response.data)
         navigate('/');
       }
       else 

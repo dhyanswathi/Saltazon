@@ -9,7 +9,7 @@ function AdminPage() {
 
     useEffect(() => {
       const getData = async () => {
-          const response = await fetch(`http://localhost:5295/api/Store/${params.id}/product`);
+          const response = await fetch(`http://localhost:7148/api/Store/${params.id}/product`);
           const productResults = await response.json();
           setStoreProducts(productResults);
       }
