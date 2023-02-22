@@ -1,15 +1,21 @@
 import AdminProductList from "./products/AdminProductList.jsx";
 import React, {useState, useEffect} from "react";
-import { useParams } from "react-router-dom";
+import { setAuthToken } from "../components/SetAuthToken.jsx";
 
 function AdminPage() {
-    const params =useParams();
+    const store = JSON.parse(localStorage.getItem("token"));
+    console.log(store.storeId);
+
     const currentStore = "Salt store number 2";
     const [storeProducts, setStoreProducts] = useState([]);
 
     useEffect(() => {
       const getData = async () => {
-          const response = await fetch(`http://localhost:7148/api/Store/${params.id}/product`);
+        const token = JSON.parse(localStorage.getItem("token")).token;
+        if (token) {
+            setAuthToken(token);
+        }
+          const response = await fetch(`https://localhost:7148/api/Store/${store.storeId}/product`);
           const productResults = await response.json();
           setStoreProducts(productResults);
       }
