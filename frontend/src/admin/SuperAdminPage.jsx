@@ -9,7 +9,7 @@ function SuperAdminPage() {
 
     useEffect(() => {
       const getData = async () => {
-          const response = await fetch(`http://localhost:7148/api/Store/`);
+          const response = await fetch(`https://localhost:7148/api/Store`);
           const storeResults = await response.json();
           setStores(storeResults.data);
       }
