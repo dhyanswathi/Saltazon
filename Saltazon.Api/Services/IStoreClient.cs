@@ -5,6 +5,7 @@ namespace Saltazon.Api.Services
     public interface IStoreClient
     {
         Task<StoreResponse?> GetStore(int id);
+        Task<StoreListResponse?> GetAllStores();
         Task<ProductListResponse?> GetAllProducts();
 
         Task<ProductResponse?> GetProduct(int id);

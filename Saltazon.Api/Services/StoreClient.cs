@@ -27,6 +27,13 @@ namespace Saltazon.Api.Services
             return await JsonSerializer.DeserializeAsync<StoreResponse?>(await storeTask);
         }
 
+        public async Task<StoreListResponse?> GetAllStores()
+        {
+            var client = getClient();
+            var storesTask = client.GetStreamAsync(StoreUrl);
+            return await JsonSerializer.DeserializeAsync<StoreListResponse?>(await storesTask);
+        }
+
         public async Task<ProductListResponse?> GetAllProducts()
         {
             var client = getClient();
