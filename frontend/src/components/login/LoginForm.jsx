@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
+import { setAuthToken } from "../SetAuthToken";
 
 function LoginForm({onSubmit}) {
   const [ email, setEmail ] = useState('');
@@ -15,9 +16,10 @@ function LoginForm({onSubmit}) {
         email: email,
           password: password
     }).then(response => {
-      if(response.status === 201){
+      if(response.status === 200){
         localStorage.setItem("token", JSON.stringify(response.data));
-        console.log(response.data)
+        setAuthToken(response.data.token);
+        console.log(response.data.token);
         navigate('/');
       }
       else 
