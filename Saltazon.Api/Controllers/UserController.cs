@@ -62,7 +62,16 @@ namespace Saltazon.Api.Controllers
                 {
                     return Unauthorized();
                 }
-                return Ok(token);
+                var loginUser = new LoginResponse
+                {
+                    Id = user.Id,
+                    Email= user.Email,
+                    Role = user.Role,
+                    StoreId = user.StoreId,
+                    Token= token,
+
+                };
+                return Ok(loginUser);
             }
 
             return Unauthorized("Email or password is incorrect");
