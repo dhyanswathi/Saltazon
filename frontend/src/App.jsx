@@ -35,11 +35,6 @@ function getCurrentCart() {
 function App() {
     const [currentCart, setCurrentCart] = useState(getCurrentCart());
 
-    const token = localStorage.getItem("token").token;
-    if (token) {
-        setAuthToken(token);
-    }
-
     const [products, setProducts] = useState([]);
 
     useEffect(() => {

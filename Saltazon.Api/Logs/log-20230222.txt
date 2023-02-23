@@ -1109,3 +1109,579 @@ Date: Wed, 22 Feb 2023 18:22:46 GMT
 Server: Kestrel
 Access-Control-Allow-Origin: [Redacted]
 2023-02-22 19:22:46.760 +01:00 [INF] HTTP POST /api/User/login responded 200 in 357.8598 ms
+2023-02-22 19:26:05.125 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:26:05.209 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:26:04 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:26:05.210 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:26:05.217 +01:00 [INF] HTTP GET /api/Product responded 200 in 95.3195 ms
+2023-02-22 19:26:05.244 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:26:04 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:26:05.250 +01:00 [INF] HTTP GET /api/Product responded 200 in 42.0067 ms
+2023-02-22 19:35:46.275 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 53.4995 ms
+2023-02-22 19:36:23.927 +01:00 [INF] HTTP GET /api/Store/{"id":7,"email":"cjurczyk6@theatlantic.com","role":"admin","storeId":2,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImNqdXJjenlrNkB0aGVhdGxhbnRpYy5jb20iLCJuYmYiOjE2NzcwOTAxNjYsImV4cCI6MTY3NzA5Mzc2NiwiaWF0IjoxNjc3MDkwMTY2fQ.L6x8DDhZemg2gZL3GL4D3_QRvXNx9E2t6D1SyhqwAZ0"}/product responded 401 in 5.0672 ms
+2023-02-22 19:36:43.775 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 16.1722 ms
+2023-02-22 19:36:47.719 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.2656 ms
+2023-02-22 19:36:48.719 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.8612 ms
+2023-02-22 19:38:04.837 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 1.0993 ms
+2023-02-22 19:38:10.752 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.7729 ms
+2023-02-22 19:39:07.853 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 1.5345 ms
+2023-02-22 19:39:32.804 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 1.9895 ms
+2023-02-22 19:39:51.766 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.4874 ms
+2023-02-22 19:39:55.750 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.5577 ms
+2023-02-22 19:39:56.749 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.3159 ms
+2023-02-22 19:39:57.749 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.4785 ms
+2023-02-22 19:40:06.028 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:40:06.028 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 1.0859 ms
+2023-02-22 19:40:06.085 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.6919 ms
+2023-02-22 19:40:06.111 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:40:06.114 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:40:05 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:40:06.127 +01:00 [INF] HTTP GET /api/Product responded 200 in 100.1079 ms
+2023-02-22 19:40:06.154 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:40:05 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:40:06.159 +01:00 [INF] HTTP GET /api/Product responded 200 in 48.3737 ms
+2023-02-22 19:40:06.163 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.4496 ms
+2023-02-22 19:40:06.184 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.2689 ms
+2023-02-22 19:40:55.789 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.8856 ms
+2023-02-22 19:40:57.762 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.2818 ms
+2023-02-22 19:40:59.628 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.2385 ms
+2023-02-22 19:41:03.352 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 1.5333 ms
+2023-02-22 19:41:03.354 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:41:03.363 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.2073 ms
+2023-02-22 19:41:03.410 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:41:03.415 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:41:02 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:41:03.441 +01:00 [INF] HTTP GET /api/Product responded 200 in 87.1567 ms
+2023-02-22 19:41:03.462 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:41:02 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:41:03.468 +01:00 [INF] HTTP GET /api/Product responded 200 in 59.0920 ms
+2023-02-22 19:41:03.493 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.2740 ms
+2023-02-22 19:41:03.504 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.3561 ms
+2023-02-22 19:41:16.246 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:41:16.246 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.2914 ms
+2023-02-22 19:41:16.276 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.3007 ms
+2023-02-22 19:41:16.297 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:41:16.297 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:41:16 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:41:16.312 +01:00 [INF] HTTP GET /api/Product responded 200 in 67.0529 ms
+2023-02-22 19:41:16.330 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:41:16 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:41:16.332 +01:00 [INF] HTTP GET /api/Product responded 200 in 35.8674 ms
+2023-02-22 19:41:16.346 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.2061 ms
+2023-02-22 19:41:16.358 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.1989 ms
+2023-02-22 19:42:17.863 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:42:17.943 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:42:18.001 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:42:17 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:42:18.025 +01:00 [INF] HTTP GET /api/Product responded 200 in 162.5998 ms
+2023-02-22 19:42:18.043 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:42:17 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:42:18.060 +01:00 [INF] HTTP GET /api/Product responded 200 in 117.1770 ms
+2023-02-22 19:42:34.800 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 3.4304 ms
+2023-02-22 19:42:42.982 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:42:42.989 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.4009 ms
+2023-02-22 19:42:43.035 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.3667 ms
+2023-02-22 19:42:43.063 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:42:43.065 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:42:42 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:42:43.075 +01:00 [INF] HTTP GET /api/Product responded 200 in 93.0367 ms
+2023-02-22 19:42:43.097 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:42:42 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:42:43.105 +01:00 [INF] HTTP GET /api/Product responded 200 in 42.1578 ms
+2023-02-22 19:42:43.132 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.4870 ms
+2023-02-22 19:42:43.155 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 0.2164 ms
+2023-02-22 19:43:16.881 +01:00 [INF] HTTP GET /api/Store/undefined/product responded 401 in 13.4475 ms
+2023-02-22 19:43:33.873 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:43:33.874 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 1.5873 ms
+2023-02-22 19:43:33.959 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.1671 ms
+2023-02-22 19:43:34.050 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:43:34.051 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:43:33 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:43:34.059 +01:00 [INF] HTTP GET /api/Product responded 200 in 187.1324 ms
+2023-02-22 19:43:34.083 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:43:33 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:43:34.086 +01:00 [INF] HTTP GET /api/Product responded 200 in 35.5474 ms
+2023-02-22 19:43:34.114 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.2602 ms
+2023-02-22 19:43:34.129 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.1999 ms
+2023-02-22 19:43:39.398 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.6406 ms
+2023-02-22 19:43:39.409 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:43:39.415 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.1462 ms
+2023-02-22 19:43:39.454 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:43:39.457 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:43:38 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:43:39.490 +01:00 [INF] HTTP GET /api/Product responded 200 in 82.0654 ms
+2023-02-22 19:43:39.507 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:43:38 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:43:39.516 +01:00 [INF] HTTP GET /api/Product responded 200 in 62.4225 ms
+2023-02-22 19:43:39.555 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.1793 ms
+2023-02-22 19:43:39.577 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.1242 ms
+2023-02-22 19:44:22.806 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.1739 ms
+2023-02-22 19:44:32.619 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:44:32.619 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.8911 ms
+2023-02-22 19:44:32.642 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.1277 ms
+2023-02-22 19:44:32.669 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:44:32.674 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:44:32 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:44:32.692 +01:00 [INF] HTTP GET /api/Product responded 200 in 74.2857 ms
+2023-02-22 19:44:32.704 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:44:32 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:44:32.716 +01:00 [INF] HTTP GET /api/Product responded 200 in 47.0863 ms
+2023-02-22 19:44:32.736 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.1330 ms
+2023-02-22 19:44:32.745 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.3407 ms
+2023-02-22 19:46:17.892 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.3030 ms
+2023-02-22 19:51:08.010 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.2655 ms
+2023-02-22 19:51:51.983 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.1343 ms
+2023-02-22 19:51:52.071 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.2811 ms
+2023-02-22 19:51:52.846 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.1577 ms
+2023-02-22 19:52:01.339 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.6843 ms
+2023-02-22 19:52:01.339 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:52:01.360 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 3.3491 ms
+2023-02-22 19:52:01.442 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:52:01 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:52:01.450 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-22 19:52:01.452 +01:00 [INF] HTTP GET /api/Product responded 200 in 112.8109 ms
+2023-02-22 19:52:01.532 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.3709 ms
+2023-02-22 19:52:01.535 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 22 Feb 2023 18:52:01 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-22 19:52:01.566 +01:00 [INF] HTTP GET /api/Product responded 200 in 116.3700 ms
+2023-02-22 19:52:01.591 +01:00 [INF] HTTP GET /api/Store/2/product responded 401 in 0.1356 ms

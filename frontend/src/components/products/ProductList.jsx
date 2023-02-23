@@ -20,7 +20,7 @@ function compareProductCategory(a, b) {
 }
 
 function sortSomething(category) {
-    console.log('sorting things would be cool' + category);
+    return (c => c.category === category);
 }
 
 function ProductList({products, addToCart}) {
@@ -32,7 +32,7 @@ function ProductList({products, addToCart}) {
     }
     return (
         <>
-            <CategorySorter categories={['First Category', 'Second Category']} sorterFunction={sortSomething}/>
+            <CategorySorter categories={['Movies', 'Shoes', 'Grocery', 'Toys', 'Baby', 'Sports', 'Beauty', 'Books', 'Kids', 'Garden', 'Others']} sorterFunction={sortSomething}/>
             <section className={"product_list"}>{
                 sortedProducts
                     .map((p) => {

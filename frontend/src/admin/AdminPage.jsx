@@ -2,6 +2,7 @@ import AdminProductList from "./products/AdminProductList.jsx";
 import React, {useState, useEffect} from "react";
 import { setAuthToken } from "../components/SetAuthToken.jsx";
 
+
 function AdminPage() {
     const store = JSON.parse(localStorage.getItem("token"));
     console.log(store.storeId);

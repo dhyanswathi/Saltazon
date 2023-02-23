@@ -5,7 +5,8 @@
 .App {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  background-color: cornsilk;
+  width:auto;
 }
 
 .top_header {
@@ -19,6 +20,7 @@
 
 .product_list {
   margin: auto;
+
 }
 
 .login_info {
