@@ -2,10 +2,7 @@
     border-style: solid;
     border-color: black;
     display: flex;
-    width: 75vw;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 30px;
+    flex-direction: column;
 }
 
 .product_item img {
@@ -18,14 +15,9 @@
 .text_section {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    width: 50em;
 }
 
 @media (max-width: 800px) {
-    .text_section{
-        font-size: 2vw;
-    }
 }
 
 .product_item button {

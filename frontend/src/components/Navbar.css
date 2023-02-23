@@ -1,6 +1,6 @@
 .navbar {
-  margin: auto;
   width: 100%;
+  margin-top: 0px;
 }
 
 .nav_button {
@@ -16,5 +16,5 @@
     display: flex ;
     justify-content: space-around;
     background-color: black;
-    padding: 1rem;
+    padding: 0.5rem;
   }

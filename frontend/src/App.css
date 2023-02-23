@@ -5,17 +5,11 @@
 .App {
   display: flex;
   flex-direction: column;
-  background-color: cornsilk;
-  width:auto;
+  background-color:whitesmoke;
 }
 
 .top_header {
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  border-style: solid;
-  border-color: #242424;
-  width: 98%;
+  width: 100%;
 }
 
 .product_list {
@@ -24,7 +18,9 @@
 }
 
 .login_info {
-  margin: auto;
+  color: rgb(18, 4, 68);
+  padding: 0px;
+  margin: 0px auto;
 }
 
 .categorySorter{

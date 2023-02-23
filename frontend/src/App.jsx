@@ -14,7 +14,6 @@ import ProductList from './components/products/ProductList.jsx';
 import LoginForm from './components/login/LoginForm.jsx';
 import NewUserForm from './components/login/NewUserForm.jsx';
 import SuperAdminPage from "./admin/SuperAdminPage.jsx";
-import { setAuthToken } from './components/SetAuthToken';
 
 function addToCart(productId) {
     console.log("Add " + productId + " From the App")
