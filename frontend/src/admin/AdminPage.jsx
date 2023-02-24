@@ -1,7 +1,7 @@
 import AdminProductList from "./products/AdminProductList.jsx";
 import React, {useState, useEffect} from "react";
 import { setAuthToken } from "../components/SetAuthToken.jsx";
-
+import axios from "axios";
 
 function AdminPage() {
     const store = JSON.parse(localStorage.getItem("token"));
@@ -16,9 +16,8 @@ function AdminPage() {
         if (token) {
             setAuthToken(token);
         }
-          const response = await fetch(`https://localhost:7148/api/Store/${store.storeId}/product`);
-          const productResults = await response.json();
-          setStoreProducts(productResults);
+          axios.get( `https://localhost:7148/api/Store/${store.storeId}/product`)
+          .then(response => setStoreProducts(response.json()))
       }
       getData();
   });

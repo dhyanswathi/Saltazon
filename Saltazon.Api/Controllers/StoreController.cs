@@ -7,6 +7,7 @@ using Saltazon.Api.Services;
 namespace Saltazon.Api.Controllers
 {
     [Route("api/[controller]")]
+
     [ApiController]
     [Authorize]
     public class StoreController : ControllerBase
