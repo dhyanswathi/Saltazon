@@ -1,0 +1,5 @@
+2023-02-28 18:27:00.722 +01:00 [INF] Now listening on: https://localhost:7148
+2023-02-28 18:27:00.792 +01:00 [INF] Now listening on: http://localhost:5295
+2023-02-28 18:27:00.798 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-28 18:27:00.802 +01:00 [INF] Hosting environment: Development
+2023-02-28 18:27:00.805 +01:00 [INF] Content root path: C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api
