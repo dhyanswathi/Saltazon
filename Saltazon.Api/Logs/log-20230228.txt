@@ -3,3 +3,81 @@
 2023-02-28 18:27:00.798 +01:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-02-28 18:27:00.802 +01:00 [INF] Hosting environment: Development
 2023-02-28 18:27:00.805 +01:00 [INF] Content root path: C:\Users\Mintu\swathistudy\pgp\authentication\Saltazon\Saltazon.Api
+2023-02-28 18:34:29.310 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-28 18:34:29.709 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-28 18:34:29.714 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Tue, 28 Feb 2023 17:34:28 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-28 18:34:29.727 +01:00 [INF] HTTP GET /api/Product responded 200 in 668.8577 ms
+2023-02-28 18:34:29.737 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Tue, 28 Feb 2023 17:34:28 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-28 18:34:29.745 +01:00 [INF] HTTP GET /api/Product responded 200 in 55.7499 ms
+2023-02-28 18:37:34.125 +01:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Product
+Accept: */*
+Host: localhost:7148
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-IN;q=0.9,sv;q=0.8
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-02-28 18:37:34.217 +01:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Tue, 28 Feb 2023 17:37:33 GMT
+Server: Kestrel
+Access-Control-Allow-Origin: [Redacted]
+2023-02-28 18:37:34.220 +01:00 [INF] HTTP GET /api/Product responded 200 in 120.6676 ms
