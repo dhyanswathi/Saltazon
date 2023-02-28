@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <h2>Welcome to saltazon!</h2>
-      <section className={"product_list"}>{
+      <section className='product-list'>{
                 products
                     .map((p) => {
                         return (
